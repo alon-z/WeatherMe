@@ -1,0 +1,29 @@
+{
+    "author": "aloniko.zus@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "weatherme",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "WeatherMe",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "6a56cf6b-af59-4d47-9147-e53884e0d7d8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.1.0"
+}
