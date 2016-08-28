@@ -27,9 +27,14 @@ int main(void) {
 }
 
 static void load_main_window(Window *window) {
+	
+	static TextLayer *s_time_layer;
   
 }
 
 static void unload_main_window(Window *window) {
+	
+	// Destroy TextLayer
+  text_layer_destroy(s_time_layer);
   
 }

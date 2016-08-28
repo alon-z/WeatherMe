@@ -5,11 +5,13 @@
     "name": "weatherme",
     "pebble": {
         "capabilities": [
-            ""
+            "configurable"
         ],
         "displayName": "WeatherMe",
         "enableMultiJS": false,
-        "messageKeys": [],
+        "messageKeys": [
+            "test"
+        ],
         "projectType": "native",
         "resources": {
             "media": []
